@@ -1,5 +1,5 @@
 
-@tag
+@goibibo
 Feature: Goibibo
 
   @oneway
@@ -18,7 +18,7 @@ Feature: Goibibo
 		And I enter the below passenger details
 		|Passenger number|title|firstname|middlename|lastname|mobile|email|
 		|1|Mr|Prince|tri|Paoluse|8553607878|prince.p@gmail.com|
-		|2|Mrs|Mary|tri|Paoluse|8553607878|prince.p@gmail.com|
+		|2|Mrs|Anna|tri|Paoluse|8553607878|prince.p@gmail.com|
 		And I enter 'prince.pri@gmail.com' and '8553608784' in the email and mobile number for the ticket section respectively
 		And I click on Proceed button
 		And I click on Proceed to Payment button
@@ -40,7 +40,7 @@ Feature: Goibibo
 		And I enter the below passenger details
 		|Passenger number|title|firstname|middlename|lastname|mobile|email|
 		|1|Mr|Prince|tri|Paoluse|8553607878|prince.p@gmail.com|
-		|2|Mrs|Mary|tri|Paoluse|8553607878|prince.p@gmail.com|
+		|2|Mrs|Lisa|tri|Paoluse|8553607878|prince.p@gmail.com|
 		And I enter 'prince.pri@gmail.com' and '8553608784' in the email and mobile number for the ticket section respectively
 		And I click on Proceed button
 		And I click on Proceed to Payment button

@@ -1,0 +1,1 @@
+{"uuid":"2d0d1ee8-1a42-4ea4-8591-7006ff8ae53a","name":"Scenario Outline: Login","children":["1a7e32a5-6124-4307-abd7-a6d4c605e825"],"befores":[{"name":"Hooks.startDriver1()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1596293475575,"stop":1596293478768}],"afters":[],"links":[],"start":1596293475574,"stop":1596293491226}

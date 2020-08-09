@@ -1,0 +1,10 @@
+PageObjects\RegisterPage.class
+TestRunners\Runner1.class
+StepDefs\GoibiboStepdefinition.class
+utils\ConfigFileRead.class
+StepDefs\RegistrationPageStepDefinition.class
+StepDefs\loginPageStepDefinition.class
+PageObjects\GoibiboPage.class
+PageObjects\LoginPage.class
+DriverFactory\DriverFact.class
+managers\PageObjectManager.class

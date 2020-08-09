@@ -13,6 +13,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
+import CommonUtils.ComUtils;
 import utils.ConfigFileRead;
 
 public class GoibiboPage {
@@ -123,13 +124,15 @@ public class GoibiboPage {
 	}
 
 
-	public void selectFromCity(String city) {
+	public void selectFromCity(String city) throws InterruptedException {
 		fromCity.sendKeys(city);
+		ComUtils.driverwait(1500);
 		selectCityautoSuggest(city).click();
 	}
 
-	public void selectDestCity(String city) {
+	public void selectDestCity(String city) throws InterruptedException {
 		destCity.sendKeys(city);
+		ComUtils.driverwait(1500);
 		selectCityautoSuggest(city).click();
 	}
 

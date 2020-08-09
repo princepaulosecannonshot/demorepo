@@ -22,11 +22,11 @@ public class loginPageStepDefinition extends DriverFact {
 	PageObjectManager pom;
 	LoginPage login;
 	ConfigFileRead config;
-	RegisterPage register = new RegisterPage(driver);
 
-	@Given("^I want to write a step with precondition$")
+
+	@Given("^I start the driver$")
 	public void demo() {
-		System.out.println("Demo");
+//		startDriver();
 	}
 
 	@And("^I navigate the browser to Gillette '(.*)' site$")
@@ -65,6 +65,7 @@ public class loginPageStepDefinition extends DriverFact {
 
 	@And("^I login into the site with valid credentials$")
 	public void clickOnLogin() throws FileNotFoundException, IOException {
+		RegisterPage register = new RegisterPage(driver);
 		pom = new PageObjectManager(driver);
 		login = pom.getLoginPage();
 		config = new ConfigFileRead();

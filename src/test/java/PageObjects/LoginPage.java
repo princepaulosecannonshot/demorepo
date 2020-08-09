@@ -19,8 +19,6 @@ public class LoginPage {
 	ConfigFileRead config;
 	WebDriver driver;
 
-	
-
 	@FindBy(xpath="//a[@title='REGISTER']")
 	private WebElement loginRegisterLink;
 

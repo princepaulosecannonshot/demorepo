@@ -1,0 +1,1 @@
+{"uuid":"15af34fe-c605-4e2f-abd5-657d2fc4ee0b","name":"Scenario Outline: Registration","children":["dc0da4ed-871e-4002-8f46-93e4f88d1c64"],"befores":[{"name":"Hooks.startDriver1()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1596293458517,"stop":1596293461708}],"afters":[],"links":[],"start":1596293458517,"stop":1596293475569}
